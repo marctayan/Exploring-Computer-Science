@@ -1,0 +1,86 @@
+import simplegui
+import random
+
+
+x = 0
+y = 0
+cloudx = 0
+
+x1 = 600
+x2 = 380
+
+def draw_handler(canvas):
+    global x
+    global y
+    global cloudx
+    
+    x  += 12.4
+    y += 1
+    cloudx = cloudx + 2
+    cloudx2 = 200
+   
+    
+    
+    canvas.draw_circle((0,0), 90, 12, "yellow", "yellow")
+    canvas.draw_line((100, 0), (155, 25), 10, "yellow")
+    canvas.draw_line((100, 35), (155, 55), 10, "yellow")
+    canvas.draw_line((100,75), (155, 100), 10, "yellow")
+    canvas.draw_line((75,100), (125, 120), 10, "yellow")
+   
+    
+    
+  
+    canvas.draw_polygon([(0,200),(600, 200), (600,400), (0,400)], 1, "black", "black")
+    canvas.draw_polygon([(0,400),(600, 400), (600,500), (0,500)], 10, "gray", "gray")
+    
+    for i in range(15):
+        x3 = random.randint(0,x1)
+        x4 = random.randint(200,x2)
+        canvas.draw_circle((x3, x4), 10, 1, "black", "blue")
+    for i in range(15):
+        x3 = random.randint(0,x1)
+        x4 = random.randint(200,x2)
+        canvas.draw_circle((x3, x4), 10, 1, "black", "red")
+   
+        canvas.draw_polygon([(0, 200), (0, 200), (100, 400)], 10, "gray")
+        canvas.draw_polygon([(600, 200), (600, 200), (500, 400)], 10, "gray")
+        
+    #clouds
+    canvas.draw_line((100 + cloudx, 100), (220 + cloudx, 100), 50, "white")
+    canvas.draw_line((300 + cloudx, 100), (420 + cloudx, 100), 50, "white")
+        
+    
+       
+    
+     # goal net
+    canvas.draw_line((490,300), (600,300), 20, "white")
+    canvas.draw_line((520, 300), (550, 600), 15, "white")
+    canvas.draw_line((500,300,), (500, 500), 20, "white")
+    
+   
+    canvas.draw_polygon([(0,500),(600, 500), (600,600), (0,600)], 1, "black", "green")
+    canvas.draw_polygon([(0,525) ,(600, 525), (600,575), (0,575)], 1, "white", "white")
+    
+    
+
+    canvas.draw_text(" 90:00 +3 TEAM ONE: 1 - TEAM TWO: 0 ", (225,25), 20, "black")
+    canvas.draw_text("CROWD GOES CRAZY!!!1", (300, 50), 20, "black")
+    
+    canvas.draw_circle((25 + x, 450), 25, 2, "black", "white")
+    canvas.draw_circle((12 + x, 445.5), 5, 2, "black", "black")
+    canvas.draw_circle((20 + x, 460), 5, 2, "black", "black")
+    
+  
+    
+    
+    
+    
+    
+    
+    
+   
+
+frame = simplegui.create_frame('Animation', 600, 600)
+frame.set_canvas_background("lightblue")
+frame.set_draw_handler(draw_handler)
+frame.start()
