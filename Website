@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>A Review on <i>Your Name</i></title>
+    <style>
+      a:hover {
+        color:#38b4f4;
+      }
+
+      a {
+        color: #5c84a5;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  
+  <header>
+    <h5 style="font-family: Tahoma, sans-serif; color: #bdccd7; padding-top: 10px; margin-left: 15px;">Anime and Manga</h5>
+    <strong><h1 style="color: white; font-family: Tahoma, sans-serif; margin-left: 10px; margin-top: -20px;">A Short Review on <i>Your Name</i></h1></strong>
+    <p style="font-family: Tahoma, sans-serif; color: white; margin-left: 10px;">Marc Taytayan</p>
+  </header>
+<body style="background-color: #1c2229; margin: 0;">
+    <img style="display: block; margin-left: auto; margin-right: auto; width: 75%; border: 1px solid #555;" src="http://blogs-image.forbes.com/olliebarder/files/2017/02/your_name_1.jpg" alt="Taki looking at the meteor in the sky"/>
+    
+    <p style="color: #5c84a5; font-family: Tahoma, sans-serif; font-size: 12px; margin-left: 90px;">25 FEBUARY 2023</p>
+    
+    <p style="color: #5c84a5; font-family: Times New Roman, Times, serif; margin-left: 80px; font-size: 20px; padding-right: 20px;"><a href="https://en.wikipedia.org/wiki/Your_Name"><i>Your Name</i></a> is a romance anime film directed by Makoto Shinkai and released in 2016. The film chronicles the lives of Japanese teenagers Mitsuha and Taki, who live almost worlds apart. Mitsuha leads a relatively mundane life in the rural town of Itomori, while Taki lives in the bustling metropolis of Tokyo. Fed up with her current lifestyle, Mitsuha dreams of a better life in Tokyo. These two characters are linked in a bizarre way, when suddenly they wake up to see that their bodies have swapped.</p>
+    <br>
+    <p style="color: #5c84a5; font-family: Times New Roman, Times, serif; margin-left: 80px; font-size: 20px; padding-right: 20px;">The story of Your Name, in contrast to previous anime movies I've seen, captivated me in a manner that not many other movies have been able to. With a straightforward plot centered on love, friendship, and spirituality, Your Name was able get out many emotions from me, and my eyes were glued onto the screen during the entire hour and 52 minute runtime.</p>
+    <img style="display: block; margin-left: auto; margin-right: auto; width: 75%; border: 1px solid #555;" src="https://a.ltrbxd.com/resized/story/image/1/8/8/6/0/1/shard/8994/blob-960-960-0-0-fill.jpg?v=dd46ca38ea" alt="Mitsuha looking at the meteor in the sky"/>
+    <h2 style="color: #5c84a5; font-family: Times New Roman, Times, serif; text-align: center;"> Rating: 9/10</h2>
+</body>
+
+<footer>
+  <hr>
+  <p style="color: #5c84a5; font-family: Times New Roman, Times, serif; margin-left: 140px; font-size: 20px;"> contact: <a href="mailto:marctaytayan@gmail.com">marctaytayan@gmail.com</a></p>
+</footer>
+  
+  
+  
+  
+</html>
