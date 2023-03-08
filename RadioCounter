@@ -1,0 +1,28 @@
+from microbit import *
+import radio
+
+radio.on()
+radio.config(channel=16)
+
+count = 0
+
+def check_buttons():
+    global count
+    if button_b.was_pressed():
+        count = count + 1
+        return str(count)
+    elif button_a.was_pressed():
+        count = count - 1
+        return str(count)
+    else:
+        return ""
+while True:
+    msg = check_buttons()
+    if msg:
+        radio.send(msg)
+    
+    msg = radio.receive()
+    if msg:
+        display.scroll(msg, wait=False, loop=True)
+    
+    
